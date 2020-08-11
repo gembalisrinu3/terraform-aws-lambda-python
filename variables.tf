@@ -1,20 +1,20 @@
-variable "aws_profile" {
+/*variable "aws_profile" {
   type        = string
   default     = "default"
   description = "Name of configured AWS profile to use for Lambda provision"
-}
+}*/
 
 variable "aws_region" {
   type        = string
-  default     = "eu-west-1"
+  default     = "us-west-2"
   description = "Region where to provision Lambda"
 }
 
-variable "pip_path" {
+/*variable "pip_path" {
   type        = string
   default     = "/usr/local/bin/pip"
   description = "Path to your pip installation"
-}
+}*/
 
 variable "lambda_name" {
   type        = string
@@ -28,7 +28,7 @@ variable "lambda_iam_name" {
   description = "Name of IAM for Lambda"
 }
 
-variable "lambda_api_name" {
+/*variable "lambda_api_name" {
   type        = string
   default     = "lambda_api"
   description = "Name of API Gateway for Lambda"
@@ -56,4 +56,4 @@ variable "iam_additional_policy" {
   type        = string
   default     = ""
   description = "Additional IAM Policy for Lambda function"
-}
+}*/
